@@ -1,0 +1,12 @@
+/media/lhspinheiro/HD/Projetos/C# projects/TechLibrary/TechLibrary.Communication/bin/Debug/net8.0/TechLibrary.Communication.deps.json
+/media/lhspinheiro/HD/Projetos/C# projects/TechLibrary/TechLibrary.Communication/bin/Debug/net8.0/TechLibrary.Communication.dll
+/media/lhspinheiro/HD/Projetos/C# projects/TechLibrary/TechLibrary.Communication/bin/Debug/net8.0/TechLibrary.Communication.pdb
+/media/lhspinheiro/HD/Projetos/C# projects/TechLibrary/TechLibrary.Communication/obj/Debug/net8.0/TechLibrary.Communication.GeneratedMSBuildEditorConfig.editorconfig
+/media/lhspinheiro/HD/Projetos/C# projects/TechLibrary/TechLibrary.Communication/obj/Debug/net8.0/TechLibrary.Communication.AssemblyInfoInputs.cache
+/media/lhspinheiro/HD/Projetos/C# projects/TechLibrary/TechLibrary.Communication/obj/Debug/net8.0/TechLibrary.Communication.AssemblyInfo.cs
+/media/lhspinheiro/HD/Projetos/C# projects/TechLibrary/TechLibrary.Communication/obj/Debug/net8.0/TechLibrary.Communication.csproj.CoreCompileInputs.cache
+/media/lhspinheiro/HD/Projetos/C# projects/TechLibrary/TechLibrary.Communication/obj/Debug/net8.0/TechLibrary.Communication.dll
+/media/lhspinheiro/HD/Projetos/C# projects/TechLibrary/TechLibrary.Communication/obj/Debug/net8.0/refint/TechLibrary.Communication.dll
+/media/lhspinheiro/HD/Projetos/C# projects/TechLibrary/TechLibrary.Communication/obj/Debug/net8.0/TechLibrary.Communication.pdb
+/media/lhspinheiro/HD/Projetos/C# projects/TechLibrary/TechLibrary.Communication/obj/Debug/net8.0/ref/TechLibrary.Communication.dll
+/media/lhspinheiro/HD/Projetos/C# projects/TechLibrary/TechLibrary.Communication/obj/Debug/net8.0/TechLibrary.Communication.csproj.AssemblyReference.cache
