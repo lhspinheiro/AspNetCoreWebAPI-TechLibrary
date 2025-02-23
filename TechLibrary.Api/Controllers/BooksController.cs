@@ -16,11 +16,11 @@ namespace TechLibrary.Api.Controllers
         [ProducesResponseType(typeof(ResponseRegisteredBookJson), StatusCodes.Status201Created)]
         [ProducesResponseType(typeof (ResponseErrorMessagesJson), StatusCodes.Status400BadRequest )]
 
-        public IActionResult Register(RequestRegisterBooksJson request)
+        public async Task <IActionResult> Register(RequestRegisterBooksJson request)
         {
             var useCase = new RegisterBooksUseCase();
             
-            var response = useCase.Execute(request);
+            var response = await useCase.Execute(request);
             
             return Created(string.Empty, response);
 
@@ -28,7 +28,7 @@ namespace TechLibrary.Api.Controllers
      
         [HttpGet("Filter")]
         [ProducesResponseType(typeof(ResponseBooksJson), StatusCodes.Status200OK)]
-        public IActionResult Filter(int pageNumber, string? title)
+        public  IActionResult Filter(int pageNumber, string? title)
         {
             var useCase = new FilterBookUseCase();
 

@@ -1,4 +1,5 @@
 using FluentValidation.Results;
+using Microsoft.EntityFrameworkCore;
 using TechLibrary.Api.Domain.Entities;
 using TechLibrary.Api.Infraestructure;
 using TechLibrary.Api.Infraestructure.Security.Cryptography;
@@ -12,12 +13,12 @@ namespace TechLibrary.Api.UseCases.Users.Register;
 
 public class RegisterUserUseCase
 {
-    public ResponseRegisteredUserJson Execute(RequestUsersJson request)
+    public async Task <ResponseRegisteredUserJson> Execute(RequestUsersJson request)
     {
 
         var dbcontext = new TechLIbraryDbContext();
         
-        Validate(request, dbcontext);
+        await Validate(request, dbcontext);
 
         var cryptography = new BCryptAlgorithm();
         
@@ -29,8 +30,8 @@ public class RegisterUserUseCase
             Password =  cryptography.HashPassword(request.Password),
         };
         
-        dbcontext.Users.Add(entity);
-        dbcontext.SaveChanges();
+        await dbcontext.Users.AddAsync(entity);
+        await dbcontext.SaveChangesAsync();
 
         var tokenGenarator = new JwtTokenGenerator();
         
@@ -41,12 +42,12 @@ public class RegisterUserUseCase
         };
     }
     
-    private void Validate(RequestUsersJson request, TechLIbraryDbContext dbContext)
+    private async Task Validate(RequestUsersJson request, TechLIbraryDbContext dbContext)
     {
         var validator = new RegisterUserValidator();
         var result = validator.Validate(request);
 
-        var existUserEmail = dbContext.Users.Any(user => user.Email.Equals(request.Email));
+        var existUserEmail = await dbContext.Users.AnyAsync(user => user.Email.Equals(request.Email));
         
         if (existUserEmail)
             result.Errors.Add(new ValidationFailure("Email", "Email is already in use."));

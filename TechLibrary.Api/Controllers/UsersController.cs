@@ -13,10 +13,10 @@ namespace TechLibrary.Api.Controllers
         [HttpPost]
         [ProducesResponseType(typeof(ResponseRegisteredUserJson), StatusCodes.Status201Created)]
         [ProducesResponseType(typeof(ResponseErrorMessagesJson), StatusCodes.Status400BadRequest)]
-        public IActionResult Register(RequestUsersJson request)
+        public async Task <IActionResult>  Register(RequestUsersJson request)
         {
             var useCase = new RegisterUserUseCase();
-            var response = useCase.Execute(request);
+            var response = await useCase.Execute(request);
 
             return Created(String.Empty, response);
         }

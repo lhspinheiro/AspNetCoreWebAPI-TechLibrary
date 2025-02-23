@@ -1,4 +1,5 @@
 using FluentValidation.Results;
+using Microsoft.EntityFrameworkCore;
 using TechLibrary.Api.Domain.Entities;
 using TechLibrary.Api.Infraestructure;
 using TechLibrary.Communication.Requests;
@@ -9,11 +10,11 @@ namespace TechLibrary.Api.UseCases.Books.Register;
 
 public class RegisterBooksUseCase
 {
-    public ResponseRegisteredBookJson Execute(RequestRegisterBooksJson request)
+    public async  Task <ResponseRegisteredBookJson> Execute(RequestRegisterBooksJson request)
     {
         var dbcontext = new TechLIbraryDbContext();
 
-        Validate(request, dbcontext);
+        await Validate(request, dbcontext);
 
         var entity = new Book()
         {
@@ -22,8 +23,8 @@ public class RegisterBooksUseCase
             Amount = request.Amount,
         };
         
-        dbcontext.Books.Add(entity);
-        dbcontext.SaveChanges();
+        await dbcontext.Books.AddAsync(entity);
+        await dbcontext.SaveChangesAsync();
 
 
         return new ResponseRegisteredBookJson
@@ -34,19 +35,19 @@ public class RegisterBooksUseCase
     }
 
 
-    private void Validate(RequestRegisterBooksJson request, TechLIbraryDbContext dbContext)
+    private async Task Validate(RequestRegisterBooksJson request, TechLIbraryDbContext dbContext)
     {
         var validator = new RegisterBooksValidator();
         var results = validator.Validate(request);
          
-        var existBooks = dbContext.Books.Any(book => book.Title.Equals(request.Title) && book.Author.Equals(request.Author));
+        var existBooks = await dbContext.Books.AnyAsync(book => book.Title.Equals(request.Title) && book.Author.Equals(request.Author));
 
         if (existBooks)
-            results.Errors.Add((new ValidationFailure("Books", "The books is already taken.")));
+             results.Errors.Add((new ValidationFailure("Books", "The books is already taken.")));
 
         if (results.IsValid == false)
         {
-            var errorMessages=results.Errors.Select(error => error.ErrorMessage).ToList();
+            var errorMessages= results.Errors.Select(error => error.ErrorMessage).ToList();
         
             throw new ErrorOnValidationException(errorMessages);
             
