@@ -10,3 +10,4 @@
 /media/lhspinheiro/HD/Projetos/C# projects/TechLibrary/TechLibrary.Communication/obj/Debug/net8.0/TechLibrary.Communication.pdb
 /media/lhspinheiro/HD/Projetos/C# projects/TechLibrary/TechLibrary.Communication/obj/Debug/net8.0/ref/TechLibrary.Communication.dll
 /media/lhspinheiro/HD/Projetos/C# projects/TechLibrary/TechLibrary.Communication/obj/Debug/net8.0/TechLibrary.Communication.csproj.AssemblyReference.cache
+/media/lhspinheiro/HD/Projetos/C# projects/TechLibrary/TechLibrary.Communication/obj/Debug/net8.0/TechLibrary.Communication.sourcelink.json

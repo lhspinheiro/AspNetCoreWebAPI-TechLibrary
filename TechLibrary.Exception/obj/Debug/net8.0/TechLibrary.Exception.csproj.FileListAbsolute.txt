@@ -10,3 +10,4 @@
 /media/lhspinheiro/HD/Projetos/C# projects/TechLibrary/TechLibrary.Exception/obj/Debug/net8.0/TechLibrary.Exception.pdb
 /media/lhspinheiro/HD/Projetos/C# projects/TechLibrary/TechLibrary.Exception/obj/Debug/net8.0/ref/TechLibrary.Exception.dll
 /media/lhspinheiro/HD/Projetos/C# projects/TechLibrary/TechLibrary.Exception/obj/Debug/net8.0/TechLibrary.Exception.csproj.AssemblyReference.cache
+/media/lhspinheiro/HD/Projetos/C# projects/TechLibrary/TechLibrary.Exception/obj/Debug/net8.0/TechLibrary.Exception.sourcelink.json

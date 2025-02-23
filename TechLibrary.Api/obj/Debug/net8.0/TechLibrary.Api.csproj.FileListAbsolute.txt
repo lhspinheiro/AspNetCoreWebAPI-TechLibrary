@@ -295,3 +295,4 @@
 /media/lhspinheiro/HD/Projetos/C# projects/TechLibrary/TechLibrary.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
 /media/lhspinheiro/HD/Projetos/C# projects/TechLibrary/TechLibrary.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
 /media/lhspinheiro/HD/Projetos/C# projects/TechLibrary/TechLibrary.Api/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/media/lhspinheiro/HD/Projetos/C# projects/TechLibrary/TechLibrary.Api/obj/Debug/net8.0/TechLibrary.Api.sourcelink.json

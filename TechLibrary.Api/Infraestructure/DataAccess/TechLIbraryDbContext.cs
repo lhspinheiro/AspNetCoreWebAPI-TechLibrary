@@ -1,3 +1,4 @@
+using System.Text.RegularExpressions;
 using Microsoft.EntityFrameworkCore;
 using TechLibrary.Api.Domain.Entities;
 
@@ -7,6 +8,8 @@ public class TechLIbraryDbContext : DbContext
 {
     
     public DbSet<User> Users { get; set; }
+    
+    public DbSet<Book> Books { get; set; }
     
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
