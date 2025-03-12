@@ -11,3 +11,16 @@
 /media/lhspinheiro/HD/Projetos/C# projects/TechLibrary/TechLibrary.Exception/obj/Debug/net8.0/ref/TechLibrary.Exception.dll
 /media/lhspinheiro/HD/Projetos/C# projects/TechLibrary/TechLibrary.Exception/obj/Debug/net8.0/TechLibrary.Exception.csproj.AssemblyReference.cache
 /media/lhspinheiro/HD/Projetos/C# projects/TechLibrary/TechLibrary.Exception/obj/Debug/net8.0/TechLibrary.Exception.sourcelink.json
+D:\Projetos\C# projects\TechLibrary\TechLibrary.Exception\bin\Debug\net8.0\TechLibrary.Exception.deps.json
+D:\Projetos\C# projects\TechLibrary\TechLibrary.Exception\bin\Debug\net8.0\TechLibrary.Exception.dll
+D:\Projetos\C# projects\TechLibrary\TechLibrary.Exception\bin\Debug\net8.0\TechLibrary.Exception.pdb
+D:\Projetos\C# projects\TechLibrary\TechLibrary.Exception\obj\Debug\net8.0\TechLibrary.Exception.csproj.AssemblyReference.cache
+D:\Projetos\C# projects\TechLibrary\TechLibrary.Exception\obj\Debug\net8.0\TechLibrary.Exception.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\C# projects\TechLibrary\TechLibrary.Exception\obj\Debug\net8.0\TechLibrary.Exception.AssemblyInfoInputs.cache
+D:\Projetos\C# projects\TechLibrary\TechLibrary.Exception\obj\Debug\net8.0\TechLibrary.Exception.AssemblyInfo.cs
+D:\Projetos\C# projects\TechLibrary\TechLibrary.Exception\obj\Debug\net8.0\TechLibrary.Exception.csproj.CoreCompileInputs.cache
+D:\Projetos\C# projects\TechLibrary\TechLibrary.Exception\obj\Debug\net8.0\TechLibrary.Exception.sourcelink.json
+D:\Projetos\C# projects\TechLibrary\TechLibrary.Exception\obj\Debug\net8.0\TechLibrary.Exception.dll
+D:\Projetos\C# projects\TechLibrary\TechLibrary.Exception\obj\Debug\net8.0\refint\TechLibrary.Exception.dll
+D:\Projetos\C# projects\TechLibrary\TechLibrary.Exception\obj\Debug\net8.0\TechLibrary.Exception.pdb
+D:\Projetos\C# projects\TechLibrary\TechLibrary.Exception\obj\Debug\net8.0\ref\TechLibrary.Exception.dll

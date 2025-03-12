@@ -39,6 +39,32 @@ namespace TechLibrary.Api.Migrations
                     b.ToTable("Books");
                 });
 
+            modelBuilder.Entity("TechLibrary.Api.Domain.Entities.Checkout", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("ChechouDate")
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("ExpectedReturnDate")
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime?>("ReturnedDate")
+                        .HasColumnType("TEXT");
+
+                    b.Property<Guid>("bookId")
+                        .HasColumnType("TEXT");
+
+                    b.Property<Guid>("userID")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Checkouts");
+                });
+
             modelBuilder.Entity("TechLibrary.Api.Domain.Entities.User", b =>
                 {
                     b.Property<Guid>("Id")

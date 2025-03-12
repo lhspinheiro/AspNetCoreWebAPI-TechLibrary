@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projetos\\C# projects\\TechLibrary\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CC0375F8-5443-4006-B7C1-48B570DC1CE0}|TechLibrary.Api\\TechLibrary.Api.csproj|d:\\projetos\\c# projects\\techlibrary\\techlibrary.api\\services\\loggeduser\\loggeduserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC0375F8-5443-4006-B7C1-48B570DC1CE0}|TechLibrary.Api\\TechLibrary.Api.csproj|solutionrelative:techlibrary.api\\services\\loggeduser\\loggeduserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC0375F8-5443-4006-B7C1-48B570DC1CE0}|TechLibrary.Api\\TechLibrary.Api.csproj|d:\\projetos\\c# projects\\techlibrary\\techlibrary.api\\usecases\\checkouts\\registerbookcheckoutusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC0375F8-5443-4006-B7C1-48B570DC1CE0}|TechLibrary.Api\\TechLibrary.Api.csproj|solutionrelative:techlibrary.api\\usecases\\checkouts\\registerbookcheckoutusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC0375F8-5443-4006-B7C1-48B570DC1CE0}|TechLibrary.Api\\TechLibrary.Api.csproj|d:\\projetos\\c# projects\\techlibrary\\techlibrary.api\\infraestructure\\security\\tokens\\access\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC0375F8-5443-4006-B7C1-48B570DC1CE0}|TechLibrary.Api\\TechLibrary.Api.csproj|solutionrelative:techlibrary.api\\infraestructure\\security\\tokens\\access\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC0375F8-5443-4006-B7C1-48B570DC1CE0}|TechLibrary.Api\\TechLibrary.Api.csproj|d:\\projetos\\c# projects\\techlibrary\\techlibrary.api\\controllers\\checkoutscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC0375F8-5443-4006-B7C1-48B570DC1CE0}|TechLibrary.Api\\TechLibrary.Api.csproj|solutionrelative:techlibrary.api\\controllers\\checkoutscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC0375F8-5443-4006-B7C1-48B570DC1CE0}|TechLibrary.Api\\TechLibrary.Api.csproj|d:\\projetos\\c# projects\\techlibrary\\techlibrary.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC0375F8-5443-4006-B7C1-48B570DC1CE0}|TechLibrary.Api\\TechLibrary.Api.csproj|solutionrelative:techlibrary.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:268018379:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1939751115:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1074854757:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoggedUserService.cs",
+              "DocumentMoniker": "D:\\Projetos\\C# projects\\TechLibrary\\TechLibrary.Api\\Services\\LoggedUser\\LoggedUserService.cs",
+              "RelativeDocumentMoniker": "TechLibrary.Api\\Services\\LoggedUser\\LoggedUserService.cs",
+              "ToolTip": "D:\\Projetos\\C# projects\\TechLibrary\\TechLibrary.Api\\Services\\LoggedUser\\LoggedUserService.cs",
+              "RelativeToolTip": "TechLibrary.Api\\Services\\LoggedUser\\LoggedUserService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAASwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T01:08:36.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JwtTokenGenerator.cs",
+              "DocumentMoniker": "D:\\Projetos\\C# projects\\TechLibrary\\TechLibrary.Api\\Infraestructure\\Security\\Tokens\\Access\\JwtTokenGenerator.cs",
+              "RelativeDocumentMoniker": "TechLibrary.Api\\Infraestructure\\Security\\Tokens\\Access\\JwtTokenGenerator.cs",
+              "ToolTip": "D:\\Projetos\\C# projects\\TechLibrary\\TechLibrary.Api\\Infraestructure\\Security\\Tokens\\Access\\JwtTokenGenerator.cs",
+              "RelativeToolTip": "TechLibrary.Api\\Infraestructure\\Security\\Tokens\\Access\\JwtTokenGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T00:46:48.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projetos\\C# projects\\TechLibrary\\TechLibrary.Api\\Program.cs",
+              "RelativeDocumentMoniker": "TechLibrary.Api\\Program.cs",
+              "ToolTip": "D:\\Projetos\\C# projects\\TechLibrary\\TechLibrary.Api\\Program.cs",
+              "RelativeToolTip": "TechLibrary.Api\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T00:46:03.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterBookCheckoutUseCase.cs",
+              "DocumentMoniker": "D:\\Projetos\\C# projects\\TechLibrary\\TechLibrary.Api\\UseCases\\Checkouts\\RegisterBookCheckoutUseCase.cs",
+              "RelativeDocumentMoniker": "TechLibrary.Api\\UseCases\\Checkouts\\RegisterBookCheckoutUseCase.cs",
+              "ToolTip": "D:\\Projetos\\C# projects\\TechLibrary\\TechLibrary.Api\\UseCases\\Checkouts\\RegisterBookCheckoutUseCase.cs*",
+              "RelativeToolTip": "TechLibrary.Api\\UseCases\\Checkouts\\RegisterBookCheckoutUseCase.cs*",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwBwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T00:09:48.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CheckoutsController.cs",
+              "DocumentMoniker": "D:\\Projetos\\C# projects\\TechLibrary\\TechLibrary.Api\\Controllers\\CheckoutsController.cs",
+              "RelativeDocumentMoniker": "TechLibrary.Api\\Controllers\\CheckoutsController.cs",
+              "ToolTip": "D:\\Projetos\\C# projects\\TechLibrary\\TechLibrary.Api\\Controllers\\CheckoutsController.cs",
+              "RelativeToolTip": "TechLibrary.Api\\Controllers\\CheckoutsController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:55:03.848Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
